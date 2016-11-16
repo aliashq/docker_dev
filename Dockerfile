@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7.2.1511
 MAINTAINER huqian 279760487@qq.com
 RUN yum update -y
 RUN yum install -y git
