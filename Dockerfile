@@ -7,4 +7,5 @@ FROM ubuntu:14.04
 
 RUN apt-get install python3
 RUN python3 -v
-RUN pip3 install -i  https://pypi.douban.com/simple/ matplotlib
+RUN pip install -U pip
+RUN pip install -i  https://pypi.douban.com/simple/ matplotlib
