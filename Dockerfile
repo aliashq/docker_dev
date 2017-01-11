@@ -3,10 +3,10 @@ RUN yum install -y git
 RUN yum install -y curl
 RUN yum install -y vim
 
-RUN pwd
-RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-RUN git clone https://github.com/aliashq/docker_dev_dockerfile
 
+RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+RUN git clone https://github.com/aliashq/docker_dev_dockerfile
 RUN cp docker_dev_dockerfile/.vimrc ~/
 
 RUN bash docker_dev_dockerfile/install.sh
