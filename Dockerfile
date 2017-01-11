@@ -3,7 +3,7 @@ RUN yum install -y git
 RUN yum install -y curl
 RUN yum install -y vim
 
-RUN ls
+RUN pwd
 RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 RUN git clone https://github.com/aliashq/docker_dev_dockerfile
 
