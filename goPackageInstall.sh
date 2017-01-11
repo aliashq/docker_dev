@@ -1,2 +1,2 @@
 source /etc/profile.d/goconfig.sh
-go get https://github.com/revel/revel.git
+go get -u github.com/revel/revel.git
