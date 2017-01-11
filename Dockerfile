@@ -13,4 +13,6 @@ RUN bash docker_dev_dockerfile/install.sh
 RUN cp docker_dev_dockerfile/goconfig.sh /etc/profile.d/
 RUN mkdir -p /gocode/src
 RUN vim +PluginInstall +qall
+
+RUN git clone https://github.com/aliashq/docker_dev_dockerfile
 RUN bash docker_dev_dockerfile/goPackageInstall.sh
