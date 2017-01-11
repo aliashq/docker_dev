@@ -12,3 +12,5 @@ RUN cp docker_dev_dockerfile/.vimrc ~/
 RUN bash docker_dev_dockerfile/install.sh
 RUN cp docker_dev_dockerfile/goconfig.sh /etc/profile.d/
 RUN mkdir -p /gocode/src
+RUN vim +PluginInstall +qall
+RUN go get https://github.com/revel/revel.git
