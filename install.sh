@@ -3,5 +3,5 @@ gopackagename=go1.7.4.linux-amd64.tar.gz
 curl -O $gourl
 tar zxvf $gopackagename
 mkdir .development
-mv go .dev
+mv go .development
  
