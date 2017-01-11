@@ -4,5 +4,4 @@ curl -O $gourl
 tar zxvf $gopackagename
 mkdir .dev
 mv go .dev
-
-cp goconfig.sh /etc/profile.d/
+ 
