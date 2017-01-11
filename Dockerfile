@@ -16,6 +16,6 @@ RUN vim +PluginInstall +qall
 
 
 RUN rm -rf docker_dev_dockerfile
-
+RUN pwd
 RUN git clone https://github.com/aliashq/docker_dev_dockerfile
 RUN bash docker_dev_dockerfile/goPackageInstall.sh
